@@ -1,0 +1,41 @@
+{
+  "name": "@lunchly/service-zerocrater",
+  "version": "0.1.0",
+  "description": "ZeroCrater API consumer for Lunchly.",
+  "engines": {
+    "node": ">=8"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "xo"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lunchly/service-zerocrater.git"
+  },
+  "keywords": [
+    "bot",
+    "lunch",
+    "slack bot"
+  ],
+  "author": {
+    "name": "Chris Vogt",
+    "email": "mail@chrisvogt.me",
+    "url": "https://www.chrisvogt.me"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lunchly/service-zerocrater/issues"
+  },
+  "homepage": "https://github.com/lunchly/service-zerocrater#readme",
+  "dependencies": {
+    "axios": "^0.18.0"
+  },
+  "devDependencies": {
+    "xo": "^0.23.0"
+  },
+  "xo": {
+    "array-bracket-spacing": [2, "always"],
+    "space": true
+  }
+}
