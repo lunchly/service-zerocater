@@ -1,6 +1,6 @@
 {
   "name": "@lunchly/service-zerocater",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "ZeroCater API consumer for Lunchly.",
   "engines": {
     "node": ">=8"
