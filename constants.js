@@ -1,6 +1,6 @@
-const ZEROCRATER_BASE = 'https://app.zerocater.com/api/v3';
+const ZEROCATER_BASE = 'https://app.zerocater.com/api/v3';
 
 module.exports = {
-  MEAL_URL: ZEROCRATER_BASE + '/meals/{mealId}',
-  COMPANY_MEALS_URL: ZEROCRATER_BASE + '/companies/{companyId}/meals'
+  MEAL_URL: ZEROCATER_BASE + '/meals/{mealId}',
+  COMPANY_MEALS_URL: ZEROCATER_BASE + '/companies/{companyId}/meals'
 };

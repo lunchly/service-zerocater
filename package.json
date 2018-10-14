@@ -1,7 +1,7 @@
 {
-  "name": "@lunchly/service-zerocrater",
+  "name": "@lunchly/service-zerocater",
   "version": "0.1.0",
-  "description": "ZeroCrater API consumer for Lunchly.",
+  "description": "ZeroCater API consumer for Lunchly.",
   "engines": {
     "node": ">=8"
   },
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/lunchly/service-zerocrater.git"
+    "url": "git+https://github.com/lunchly/service-zerocater.git"
   },
   "keywords": [
     "bot",
@@ -25,9 +25,9 @@
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/lunchly/service-zerocrater/issues"
+    "url": "https://github.com/lunchly/service-zerocater/issues"
   },
-  "homepage": "https://github.com/lunchly/service-zerocrater#readme",
+  "homepage": "https://github.com/lunchly/service-zerocater#readme",
   "dependencies": {
     "axios": "^0.18.0"
   },
@@ -35,7 +35,6 @@
     "xo": "^0.23.0"
   },
   "xo": {
-    "array-bracket-spacing": [2, "always"],
     "space": true
   }
 }
