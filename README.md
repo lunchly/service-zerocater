@@ -1,4 +1,4 @@
-# service-zerocater [![CircleCI](https://circleci.com/gh/lunchly/service-zerocater/tree/master.svg?style=svg)](https://circleci.com/gh/lunchly/service-zerocater/tree/master)
+# service-zerocater [![CircleCI](https://circleci.com/gh/lunchly/service-zerocater/tree/master.svg?style=svg)](https://circleci.com/gh/lunchly/service-zerocater/tree/master) [![codecov](https://codecov.io/gh/lunchly/service-zerocater/branch/master/graph/badge.svg)](https://codecov.io/gh/lunchly/service-zerocater)
 
 > ZeroCater integration for Lunchly
 
