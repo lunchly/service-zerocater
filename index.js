@@ -1,6 +1,6 @@
-const todaysMeal = require('./todays-meal');
 const fetchMealById = require('./fetch-meal-by-id');
 const fetchMeals = require('./fetch-meals');
+const isTodaysMeal = require('./is-todays-meal');
 
 let allMeals;
 
@@ -27,7 +27,7 @@ const all = async companyId => {
 const today = async companyId => {
   const meals = await getMeals(companyId);
 
-  const {id} = meals.find(todaysMeal);
+  const {id} = meals.find(isTodaysMeal);
   const meal = await fetchMealById(id);
 
   return meal;

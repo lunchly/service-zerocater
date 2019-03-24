@@ -1,3 +1,8 @@
+/**
+ * Determines whether a meal is scheduled for today
+ * @param {object} meal The ZeroCater meal object.
+ * @returns {boolean} If a meal is scheduled for today.
+ */
 module.exports = meal => {
   const {time} = meal;
 
