@@ -27,7 +27,7 @@ jobs:
           name: Generate code coverage
           command: |
             mkdir coverage
-            ./node_modules/.bin/nyc report --reporter=text-lcov > > coverage/lcov.info
+            ./node_modules/.bin/nyc report --reporter=text-lcov > coverage/lcov.info
       - store_artifacts:
           path: coverage
           prefix: coverage
