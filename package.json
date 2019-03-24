@@ -7,7 +7,10 @@
   },
   "main": "index.js",
   "scripts": {
-    "test": "xo"
+    "lint": "xo",
+    "test": "npm run lint && npm run unit",
+    "unit": "ava",
+    "watch": "npx ava --watch"
   },
   "repository": {
     "type": "git",
@@ -32,6 +35,8 @@
     "axios": "^0.18.0"
   },
   "devDependencies": {
+    "ava": "^1.3.1",
+    "sinon": "^7.3.0",
     "xo": "^0.23.0"
   },
   "xo": {
