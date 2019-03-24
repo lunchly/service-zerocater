@@ -3,7 +3,7 @@ orbs:
   codecov: codecov/codecov@1.0.4
 jobs:
   build:
-    working_directory: ~/slack-bot
+    working_directory: ~/service-zerocater
     docker:
       - image: circleci/node:8.15.1-jessie
     steps:
